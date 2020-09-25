@@ -9,7 +9,7 @@ export const HeaderData = ({info, icon}) => {
             {info}
           </div>
           <div style={{alignSelf:'center'}}>
-            <FontAwesomeIcon icon={icon} />
+            <FontAwesomeIcon icon={icon} size={30} />
           </div>
         </div>
       </div>
