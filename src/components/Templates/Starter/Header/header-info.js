@@ -1,5 +1,8 @@
 import React from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { icon, library } from '@fortawesome/fontawesome-svg-core'
+
+library.add(icon)
 
 export const HeaderData = ({info, icon}) => {
     return (
